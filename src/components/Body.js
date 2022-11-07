@@ -7,7 +7,7 @@ function Body() {
   return (
     <div className="body">
       <span className="main-icon">
-        <ImEarth size={40}/>
+        <ImEarth size={40} />
       </span>
       <div className="shots">
         <input

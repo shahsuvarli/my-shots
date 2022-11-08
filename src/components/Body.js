@@ -6,17 +6,17 @@ import FlagModal from "./FlagModal";
 import { CountryContext } from "../App";
 
 function Body() {
-  const data = useContext(CountryContext);
-  const [mine, setMine] = useState(data);
-  const [show, setShow] = useState(false);
+  const { setCountry, show, setShow } = useContext(CountryContext);
   const [input, setInput] = useState("");
+
   const handleCard = (country) => {
     setShow(!show);
-    setMine(country);
+    setCountry(country);
   };
+
   return (
     <div>
-      <FlagModal show={show} country={mine} />
+      <FlagModal />
       <div className="body">
         <span className="main-icon">
           <ImEarth size={40} />
@@ -30,16 +30,13 @@ function Body() {
             onChange={(e) => setInput(e.target.value)}
           />
           {countries
-            .filter((country) =>
-              country.name.toLowerCase().includes(input.toLowerCase())
+            .filter((item) =>
+              item.name.toLowerCase().includes(input.toLowerCase())
             )
-            .map((country) => {
+            .map((item) => {
               return (
-                <div
-                  key={country.code}
-                  onClick={() => handleCard(country)}
-                >
-                  <CountryCard country={country} />
+                <div key={item.code} onClick={() => handleCard(item)}>
+                  <CountryCard country={item} />
                 </div>
               );
             })}

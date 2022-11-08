@@ -1,18 +1,20 @@
 import "./styles/App.css";
 import Body from "./components/Body";
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 export const CountryContext = createContext();
-const data = {
-  name: "Elvin",
-  code: "az",
-  inStore: true,
-};
 
 function App() {
+  const [country, setCountry] = useState({
+    name: "Elvin",
+    code: "az",
+    inStore: false,
+  });
+  const [show, setShow] = useState(false);
+
   return (
     <div className="App">
-      <CountryContext.Provider value={data}>
+      <CountryContext.Provider value={{ country, setCountry, show, setShow }}>
         <Body />
       </CountryContext.Provider>
     </div>

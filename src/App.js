@@ -1,10 +1,20 @@
-import "./App.css";
+import "./styles/App.css";
 import Body from "./components/Body";
+import { createContext } from "react";
+
+export const CountryContext = createContext();
+const data = {
+  name: "Elvin",
+  code: "az",
+  inStore: true,
+};
 
 function App() {
   return (
     <div className="App">
-      <Body />
+      <CountryContext.Provider value={data}>
+        <Body />
+      </CountryContext.Provider>
     </div>
   );
 }

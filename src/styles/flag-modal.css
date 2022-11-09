@@ -8,7 +8,7 @@
   background-color: rgba(177, 224, 231, 0.5);
 }
 
-.modal-header{
+.modal-header {
   height: 50px;
   display: flex;
   justify-content: center;
@@ -28,10 +28,10 @@
   display: none;
 }
 
-.show{
+.show {
   display: flex;
 }
 
-img{
+img {
   border: 1px solid black;
 }

@@ -11,10 +11,11 @@ function App() {
     inStore: false,
   });
   const [show, setShow] = useState(false);
+  const [visited, setVisited] = useState({});
 
   return (
     <div className="App">
-      <CountryContext.Provider value={{ country, setCountry, show, setShow }}>
+      <CountryContext.Provider value={{ country, setCountry, show, setShow, visited, setVisited }}>
         <Body />
       </CountryContext.Provider>
     </div>

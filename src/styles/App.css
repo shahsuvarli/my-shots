@@ -7,7 +7,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
+}
+
+.body-container {
 }
 
 .country-card {
@@ -27,6 +29,7 @@
 .visited {
   background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
+
 .country-card:hover {
   cursor: pointer;
   background-color: rgb(22, 96, 161);
@@ -35,9 +38,9 @@
 .shots {
   width: 90%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  overflow: scroll;
+  align-items: center;
+  flex-direction: column;
 }
 
 .search-input {
@@ -46,11 +49,18 @@
   font-size: 17px;
   padding: 0 20px;
   border-radius: 17px;
-  margin-bottom: 20px;
   text-align: center;
 }
 
 .main-icon {
   margin: 20px 0px;
   color: rgb(22, 96, 161);
+}
+
+.cards-container {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

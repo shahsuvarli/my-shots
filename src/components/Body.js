@@ -4,9 +4,11 @@ import { ImEarth } from "react-icons/im";
 import CountryCard from "./CountryCard";
 import FlagModal from "./FlagModal";
 import { CountryContext } from "../App";
+import Description from "./Description";
+import "../styles/description.css";
 
 function Body() {
-  const { setCountry, show, setShow } = useContext(CountryContext);
+  const { setCountry, show, setShow, visited } = useContext(CountryContext);
   const [input, setInput] = useState("");
 
   const handleCard = (country) => {
@@ -15,7 +17,7 @@ function Body() {
   };
 
   return (
-    <div>
+    <div className="body-container">
       <FlagModal />
       <div className="body">
         <span className="main-icon">
@@ -29,17 +31,22 @@ function Body() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          {countries
-            .filter((item) =>
-              item.name.toLowerCase().includes(input.toLowerCase())
-            )
-            .map((item) => {
-              return (
-                <div key={item.code} onClick={() => handleCard(item)}>
-                  <CountryCard country={item} />
-                </div>
-              );
-            })}
+          <Description />
+          <div className="cards-container">
+            {countries
+              .filter(
+                (item) =>
+                  item.name.toLowerCase().includes(input.toLowerCase()) &&
+                  item.inStore !== visited
+              )
+              .map((item) => {
+                return (
+                  <div key={item.code} onClick={() => handleCard(item)}>
+                    <CountryCard country={item} />
+                  </div>
+                );
+              })}
+          </div>
         </div>
       </div>
     </div>

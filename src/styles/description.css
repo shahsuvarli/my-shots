@@ -1,0 +1,49 @@
+.description-container {
+  width: 95%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#all,
+#visited,
+#not-visited {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+#visited {
+  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+#all,
+#visited:hover,
+#not-visited:hover {
+  background: rgb(22, 96, 161);
+  cursor: pointer;
+}
+
+#not-visited {
+  background: rgb(100, 183, 203);
+}
+
+#all {
+  background: rgb(22, 96, 161);
+}
+
+@media screen and (max-width: 380px) {
+  #all,
+  #visited,
+  #not-visited {
+    width: 30%;
+  }
+}

@@ -13,10 +13,7 @@ function FlagModal() {
       onClick={handleModal}
     >
       <div className="modal-card">
-        <span className="modal-header">
-
-        {country.name}
-        </span>
+        <span className="modal-header">{country.name}</span>
         <img
           src={`http://www.geonames.org/flags/x/${country.code.toLowerCase()}.gif`}
           alt={country.name}

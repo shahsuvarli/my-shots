@@ -135,7 +135,7 @@
     "code": "LA",
     "inStore": false
   },
-  { "name": "Latvia", "code": "LV", "inStore": false },
+  { "name": "Latvia", "code": "LV", "inStore": true },
   { "name": "Lebanon", "code": "LB", "inStore": false },
   { "name": "Lesotho", "code": "LS", "inStore": false },
   { "name": "Liberia", "code": "LR", "inStore": false },

@@ -166,7 +166,7 @@
   { "name": "Monaco", "code": "MC", "inStore": false },
   { "name": "Mongolia", "code": "MN", "inStore": false },
   { "name": "Montserrat", "code": "MS", "inStore": false },
-  { "name": "Morocco", "code": "MA", "inStore": false },
+  { "name": "Morocco", "code": "MA", "inStore": true },
   { "name": "Mozambique", "code": "MZ", "inStore": false },
   { "name": "Myanmar", "code": "MM", "inStore": false },
   { "name": "Namibia", "code": "NA", "inStore": false },

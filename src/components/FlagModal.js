@@ -15,7 +15,7 @@ function FlagModal() {
       <div className="modal-card">
         <span className="modal-header">{country.name}</span>
         <img
-          src={`http://www.geonames.org/flags/x/${country.code.toLowerCase()}.gif`}
+          src={`https://flagicons.lipis.dev/flags/4x3/${country.code.toLowerCase()}.svg`}
           alt={country.name}
         />
       </div>

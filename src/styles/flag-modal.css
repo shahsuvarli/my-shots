@@ -16,13 +16,24 @@
   font-weight: bold;
 }
 
+@keyframes modal {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .modal-card {
   border-radius: 5px;
-  background-color: white;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid #fff;
   width: 50%;
+  min-width: 300px;
+  animation: modal 0.5s 1;
 }
 
 .hide {
@@ -34,5 +45,6 @@
 }
 
 img {
-  border: 1px solid black;
+  border: 0.2px solid #fff;
+  border-radius: 5px;
 }

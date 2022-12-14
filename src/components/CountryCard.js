@@ -7,7 +7,8 @@ function CountryCard({ country }) {
       key={country.code}
     >
       <img
-        src={`http://www.geonames.org/flags/x/${country.code.toLowerCase()}.gif`}
+        // src={`http://www.geonames.org/flags/x/${country.code.toLowerCase()}.gif`}
+        src={`https://flagicons.lipis.dev/flags/4x3/${country.code.toLowerCase()}.svg`}
         style={{ width: 25, flex: 1 }}
         alt={country.name}
       />

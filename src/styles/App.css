@@ -9,9 +9,6 @@
   flex-direction: column;
 }
 
-.body-container {
-}
-
 .country-card {
   width: 140px;
   height: 70px;
@@ -21,6 +18,7 @@
   margin: 5px;
   border-radius: 5px;
   padding: 5px;
+  gap: 1%;
   background-color: rgb(100, 183, 203);
   color: #fff;
   font-weight: bold;

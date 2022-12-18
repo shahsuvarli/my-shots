@@ -215,7 +215,7 @@
   { "name": "Saudi Arabia", "code": "SA", "inStore": false },
   { "name": "Senegal", "code": "SN", "inStore": false },
   { "name": "Serbia", "code": "RS", "inStore": false },
-  { "name": "Montenegro", "code": "ME", "inStore": false },
+  { "name": "Montenegro", "code": "ME", "inStore": true },
   { "name": "Seychelles", "code": "SC", "inStore": false },
   { "name": "Sierra Leone", "code": "SL", "inStore": false },
   { "name": "Singapore", "code": "SG", "inStore": false },

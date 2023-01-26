@@ -76,7 +76,7 @@
   { "name": "Faroe Islands", "code": "FO", "inStore": false },
   { "name": "Fiji", "code": "FJ", "inStore": false },
   { "name": "Finland", "code": "FI", "inStore": false },
-  { "name": "France", "code": "FR", "inStore": false },
+  { "name": "France", "code": "FR", "inStore": true },
   { "name": "French Guiana", "code": "GF", "inStore": false },
   { "name": "French Polynesia", "code": "PF", "inStore": false },
   { "name": "French Southern Territories", "code": "TF", "inStore": false },

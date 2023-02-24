@@ -20,7 +20,7 @@
   { "name": "Bangladesh", "code": "BD", "inStore": false },
   { "name": "Barbados", "code": "BB", "inStore": false },
   { "name": "Belarus", "code": "BY", "inStore": false },
-  { "name": "Belgium", "code": "BE", "inStore": false },
+  { "name": "Belgium", "code": "BE", "inStore": true },
   { "name": "Belize", "code": "BZ", "inStore": false },
   { "name": "Benin", "code": "BJ", "inStore": false },
   { "name": "Bermuda", "code": "BM", "inStore": false },

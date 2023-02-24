@@ -86,7 +86,7 @@
   { "name": "Germany", "code": "DE", "inStore": true },
   { "name": "Ghana", "code": "GH", "inStore": false },
   { "name": "Gibraltar", "code": "GI", "inStore": false },
-  { "name": "Greece", "code": "GR", "inStore": false },
+  { "name": "Greece", "code": "GR", "inStore": true },
   { "name": "Greenland", "code": "GL", "inStore": false },
   { "name": "Grenada", "code": "GD", "inStore": false },
   { "name": "Guadeloupe", "code": "GP", "inStore": false },

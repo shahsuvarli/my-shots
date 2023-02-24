@@ -229,7 +229,7 @@
     "code": "GS",
     "inStore": false
   },
-  { "name": "Spain", "code": "ES", "inStore": false },
+  { "name": "Spain", "code": "ES", "inStore": true },
   { "name": "Sri Lanka", "code": "LK", "inStore": false },
   { "name": "Sudan", "code": "SD", "inStore": false },
   { "name": "Suriname", "code": "SR", "inStore": false },

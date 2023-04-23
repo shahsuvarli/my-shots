@@ -57,7 +57,7 @@
   { "name": "Cook Islands", "code": "CK", "inStore": false },
   { "name": "Costa Rica", "code": "CR", "inStore": false },
   { "name": "Cote D\"Ivoire", "code": "CI", "inStore": false },
-  { "name": "Croatia", "code": "HR", "inStore": false },
+  { "name": "Croatia", "code": "HR", "inStore": true },
   { "name": "Cuba", "code": "CU", "inStore": false },
   { "name": "Cyprus", "code": "CY", "inStore": false },
   { "name": "Czech Republic", "code": "CZ", "inStore": false },

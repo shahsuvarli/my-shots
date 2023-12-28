@@ -219,7 +219,7 @@
   { "name": "Seychelles", "code": "SC", "inStore": false },
   { "name": "Sierra Leone", "code": "SL", "inStore": false },
   { "name": "Singapore", "code": "SG", "inStore": false },
-  { "name": "Slovakia", "code": "SK", "inStore": false },
+  { "name": "Slovakia", "code": "SK", "inStore": true },
   { "name": "Slovenia", "code": "SI", "inStore": false },
   { "name": "Solomon Islands", "code": "SB", "inStore": false },
   { "name": "Somalia", "code": "SO", "inStore": false },
